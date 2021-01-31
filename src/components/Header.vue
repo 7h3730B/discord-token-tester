@@ -2,7 +2,7 @@
   <header>
     <div class="header">
       <h3 class="child">{{ title }}</h3>
-      <a class="child" target="_blank" href="{{ GithubLink }}"> Github </a>
+      <a class="child" target="_blank" :href="GithubLink"> Github </a>
     </div>
   </header>
 </template>
